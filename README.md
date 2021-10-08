@@ -33,3 +33,22 @@ ping
 incr contador
 incr contador
 get contador
+
+_______________________________________________
+
+gRPC
+Formato de mensagem = Protobuf
+Versão HTTP = HTTP 2
+Geração de código nativo em vez de usar ferramentas de terceiros
+Implementação mais lenta que REST
+
+O gRPC ainda não foi amplamente adotado  e a maioria das ferramentas de terceiros continua sem recursos integrados para compatibilidade do gRPC.
+
+______________________
+
+A integração do gRPC com a plataforma .NET foi feita na versão 3.0 do .NET core SDK
+o SDK inclui ferramentas para roteamento de endpoint, IoC interno e registro em log
+O servidor Web Kestrel de código aberto dá suporte a conexões HTTP/2
+- Visual Studio 19 v16.3 ou superior
+- VSCode
+- CLI do dotnet

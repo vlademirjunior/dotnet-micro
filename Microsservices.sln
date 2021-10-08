@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog.API\
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{35A338F0-27C8-4236-9239-80CAFF138D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Basket.API\Basket.API.csproj", "{5332E332-6AF5-4ADC-B255-E5F4A3B627E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Basket.API\Basket.API.csproj", "{5332E332-6AF5-4ADC-B255-E5F4A3B627E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Discount.API\Discount.API.csproj", "{FA490AF6-89AD-469D-9D84-AC87406703EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Discount.API\Discount.API.csproj", "{FA490AF6-89AD-469D-9D84-AC87406703EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "..\Discount.Grpc\Discount.Grpc.csproj", "{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,18 @@ Global
 		{FA490AF6-89AD-469D-9D84-AC87406703EF}.Release|x64.Build.0 = Release|Any CPU
 		{FA490AF6-89AD-469D-9D84-AC87406703EF}.Release|x86.ActiveCfg = Release|Any CPU
 		{FA490AF6-89AD-469D-9D84-AC87406703EF}.Release|x86.Build.0 = Release|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Debug|x64.Build.0 = Debug|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Debug|x86.Build.0 = Debug|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Release|x64.ActiveCfg = Release|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Release|x64.Build.0 = Release|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Release|x86.ActiveCfg = Release|Any CPU
+		{A6D0C690-A465-4C10-A5C4-DA72237FA7AD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

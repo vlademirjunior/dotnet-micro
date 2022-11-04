@@ -1,0 +1,14 @@
+version: "2"
+services:
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - $HOME/docker-databases/mysql-db:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=VShopDB
+      - MYSQL_ROOT_PASSWORD=hw8vup5e
+    ports:
+      - 3306:3306
+volumes:
+  dbdata:
+    driver: local
